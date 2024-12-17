@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Лапушок</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20241217190710">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+			</div>
+		</header>
+		<main class="page ">
+			<div id="snow"></div>
+			<div class="page__loader">
+				<div class="christmas-tree"><span>What is loading</span></div>
+			</div>
+			<div class="case-m">
+				<div class="case-m__container">
+
+					<div id="case-container">
+						<div id="indicator"></div>
+						<div id="case-slider">
+							<!-- Gifts will be dynamically added via JS -->
+						</div>
+					</div>
+					<button class="button button--big" id="open-gift">Крути БАРАБАН!</button>
+
+					<!-- Volume Control -->
+
+					<!-- Audio Elements for Sounds -->
+					<audio id="sound-open" src="https://files.catbox.moe/ptaxn6.mp3"></audio>
+					<audio id="sound-common" src="https://files.catbox.moe/cnpxw2.mp3"></audio>
+					<audio id="sound-rare" src="https://files.catbox.moe/ok0jgn.mp3"></audio>
+					<audio id="sound-epic" src="https://files.catbox.moe/d9604r.mp3"></audio>
+					<audio id="sound-legendary" src="https://example.com/sounds/legendary.mp3"></audio>
+
+					<!-- Updated Background Music -->
+					<audio id="background-music" loop autoplay>
+						<source src="img/videoplayback.weba" type="audio/webm">
+					</audio>
+				</div>
+			</div>
+
+		</main>
+
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20241217190710"></script>
+	<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js?_v=20241217190710"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js?_v=20241217190710"></script>
+	<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/MotionPathPlugin.min.js?_v=20241217190710"></script>
+</body>
+
+</html>
